@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class SerialCommunication : MonoBehaviour
 {
     private SerialPort serialPort;
-    private string portName = "COM4"; // Asegúrate de usar el puerto correcto en tu sistema
+    private string portName = "COM7"; // Asegúrate de usar el puerto correcto en tu sistema
     private int baudRate = 115200;
 
     [SerializeField] private TextMeshProUGUI _text;
